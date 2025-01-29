@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "add_xl_color_column"
+description = "Add a column with the color found in each spreadsheet row."
+authors = [
+  {name = "David Faden", email = "dfaden@gmail.com"},
+]
+version = "0.1.0"
+license = {text = "MIT License"}
+dependencies = ["openpyxl"]
