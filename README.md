@@ -14,6 +14,18 @@ But this is still useful for the little project I was looking at so I'm
 publishing it as is in order to help preserve the bit of knowledge I've
 gained working on it.
 
+## Usage
+
+```
+python -m venv colenv
+cd colenv
+bin/pip3 install git+https://github.com/fadend/add_xl_color_column
+bin/python3 -m add_xl_color_column.add_xl_color_column \
+  -i $HOME/Downloads/hoverflies.xlsx  -o $HOME/Downloads/hoverflies_color.xlsx 
+```
+
+## Acknowledgments
+
 Thank you, Eric Gazoni and Charlie Clark, for the super helpful
 [openpyxl](https://pypi.org/project/openpyxl/) package!
 
